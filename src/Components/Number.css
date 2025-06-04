@@ -1,0 +1,16 @@
+.number-block{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    align-items: center;
+    flex-direction: column-reverse;
+    margin-top: 113px;
+}
+.number-block-inner{
+    border: 2px;
+}
+button{
+    border-radius: 25px;
+    margin: 2px;
+    padding: 4px;
+}

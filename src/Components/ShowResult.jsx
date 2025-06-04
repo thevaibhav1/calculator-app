@@ -1,4 +1,4 @@
 const ShowResult = ({ newcal }) => {
-  return <p>{newcal}</p>;
+  return <div>{newcal}</div>;
 };
 export default ShowResult;

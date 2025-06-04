@@ -1,13 +1,13 @@
 import { useContext } from "react";
 import { InputContext } from "../Store/InputContext";
-
+import "./Number.css";
 const Number = () => {
   const { handleClick, clearInputValue, calculateRes } =
     useContext(InputContext);
 
   return (
-    <div>
-      <div>
+    <div className="number-block">
+      <div className="number-block-inner">
         <button onClick={() => handleClick("+")}>+</button>
         <button onClick={() => handleClick("-")}>-</button>
         <button onClick={() => handleClick("/")}>/</button>

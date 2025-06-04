@@ -20,8 +20,10 @@ const InputContextProvider = ({ children }) => {
     try {
       const result = evaluateExpression(value);
       setCalculation(String(result));
+      setValue("");
     } catch (err) {
       setCalculation("Error");
+      setValue("");
     }
   };
   const val = {
