@@ -9,7 +9,7 @@ const HeroSection = () => {
   return (
     <>
       <div className="input-block">
-        <input value={val.identifier} readOnly />
+        <input type="text" value={val.identifier} readOnly />
       </div>
       <ShowResult newcal={val.calculation} />
     </>

@@ -7,7 +7,7 @@ const InputContextProvider = ({ children }) => {
   const [calculation, setCalculation] = useState("");
   const handleClick = (identifier) => {
     setValue((prev) => prev + identifier);
-    // console.log(identifier);
+    console.log(value);
   };
 
   const clearInputValue = () => {
